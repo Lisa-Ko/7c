@@ -31,13 +31,6 @@ void Printtable(int[,] table)
      Console.WriteLine();
      }
 }
-void PrintArray(int[] array)
-{
-    for    (int i=0;   i<array.GetLength(0); i++)
-    {
-        Console.Write(array[i]+ "|");
-    }
-}
  void Average(int[,] table)
     {            
         for (int j = 0; j < table.GetLength(1); j++)
